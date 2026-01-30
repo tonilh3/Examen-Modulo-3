@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Test Interactivo</title>
+  <link rel="stylesheet" href=styles.css>
+</head>
+<body>
+
+  <div class="quiz-container">
+    <h1>Test de Conocimientos</h1>
+
+    <!-- Progreso -->
+    <p id="progress-text">Pregunta 1 de 10</p>
+    <div class="progress-bar">
+      <div id="progress-fill"></div>
+    </div>
+
+    <!-- Pregunta -->
+    <h2 id="question"></h2>
+
+    <!-- Opciones -->
+    <div id="options"></div>
+
+    <!-- Feedback -->
+    <p id="feedback"></p>
+
+    <!-- Botón siguiente -->
+    <button id="next-btn" disabled>Siguiente</button>
+
+    <!-- Pantalla final -->
+    <div id="result-screen" class="hidden">
+      <h2>Resultados</h2>
+      <p id="score-text"></p>
+      <p id="percentage-text"></p>
+      <p id="final-message"></p>
+      <button id="restart-btn">Reiniciar Test</button>
+    </div>
+  </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
